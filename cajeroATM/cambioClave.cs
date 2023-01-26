@@ -13,27 +13,23 @@ namespace cajeroATM
     public partial class cambioClave : UserControl
     {
         public static cambioClave instance;
+
         public cambioClave()
         {
             InitializeComponent();
             instance= this;
         }
 
-        private void cambioClave_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void cambiarClaveBTN_Click_1(object sender, EventArgs e)
         {
             String nuevaClave = nuevaClaveTXT.Text;
             String confirmarClave = confirmarClaveTXT.Text;
-
             if (nuevaClave == confirmarClave)
             {
-                Form2.instance.claveActual = nuevaClave;
-                MessageBox.Show("Su clave ah sido cambiada");
+                MessageBox.Show("Su clave ha sido cambiada");
             }
+            Form1.Instance.clave = nuevaClave;
         }
+        private void cambioClave_Load(object sender, EventArgs e) { }
     }
 }

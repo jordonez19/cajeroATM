@@ -24,8 +24,6 @@ namespace cajeroATM
         public UserControl otroValorRetirarForm;
         public double saldo = 1000000;
         public double saldoFinal;
-        public String clave = "1234";
-        public String claveActual;
 
 
         public Form2()
@@ -89,15 +87,12 @@ namespace cajeroATM
             consultarSaldo1.Hide();
             depositar1.Hide();
             retirar1.Hide();
-
         }
 
         private void Salir_Click(object sender, EventArgs e)
         {
             this.Close();
-            Form1 form1 = new Form1();
-            form1.Show();
-
+            Form1.Instance.Show();
         }
 
         private void otroValorRetirar1_Load(object sender, EventArgs e)

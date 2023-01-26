@@ -15,34 +15,53 @@ namespace cajeroATM
     {
 
         public static Form1 Instance;
-        String clave = "1234";
-        String claveActual;
+
+        public String clave
+        {
+            get { return claveActual; }
+            set { claveActual = value; }
+        }
+        public String claveActual = "1234";
+        public String claveNueva;
+        public String claveNuevaActual;
 
         public Form1()
         {
             InitializeComponent();
             Instance = this;
-            claveActual = clave;
+
+            clave = claveActual;
+            claveNueva = claveNuevaActual;
+
         }
 
         private void ingresarBTN_Click(object sender, EventArgs e)
         {
-            string celular = celularTXT.Text;
-            string clave = claveTXT.Text;
+            string celularField = celularTXT.Text;
+            string claveField = claveTXT.Text;
 
-            if (!string.IsNullOrWhiteSpace(celular) && !string.IsNullOrWhiteSpace(clave))
+
+            if (!string.IsNullOrWhiteSpace(celularField) && !string.IsNullOrWhiteSpace(claveField))
             {
+                MessageBox.Show("dato:" + clave  );
 
-                this.Hide();
-                Form2 form2 = new Form2();
-                form2.Show();
+
+                if (claveField == clave)
+                {
+                    this.Hide();
+                    Form2 form2 = new Form2();
+                    form2.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Clave incorrecta");
+                }
 
             }
             else
             {
                 MessageBox.Show("Debes llenar los campos para poder continuar");
             }
-
         }
 
         private void Form1_Load(object sender, EventArgs e)
