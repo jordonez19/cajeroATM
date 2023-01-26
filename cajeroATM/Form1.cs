@@ -43,8 +43,6 @@ namespace cajeroATM
 
             if (!string.IsNullOrWhiteSpace(celularField) && !string.IsNullOrWhiteSpace(claveField))
             {
-                MessageBox.Show("dato:" + clave  );
-
 
                 if (claveField == clave)
                 {

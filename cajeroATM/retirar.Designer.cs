@@ -41,7 +41,7 @@
             this.n10BTN.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.n10BTN.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.n10BTN.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.n10BTN.Location = new System.Drawing.Point(76, 124);
+            this.n10BTN.Location = new System.Drawing.Point(81, 118);
             this.n10BTN.Name = "n10BTN";
             this.n10BTN.Size = new System.Drawing.Size(166, 45);
             this.n10BTN.TabIndex = 8;
@@ -54,7 +54,7 @@
             this.n20BTN.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.n20BTN.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.n20BTN.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.n20BTN.Location = new System.Drawing.Point(76, 200);
+            this.n20BTN.Location = new System.Drawing.Point(81, 194);
             this.n20BTN.Name = "n20BTN";
             this.n20BTN.Size = new System.Drawing.Size(166, 45);
             this.n20BTN.TabIndex = 9;
@@ -67,7 +67,7 @@
             this.n50BTN.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.n50BTN.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.n50BTN.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.n50BTN.Location = new System.Drawing.Point(76, 275);
+            this.n50BTN.Location = new System.Drawing.Point(81, 269);
             this.n50BTN.Name = "n50BTN";
             this.n50BTN.Size = new System.Drawing.Size(166, 45);
             this.n50BTN.TabIndex = 10;
@@ -80,7 +80,7 @@
             this.otroRetirarBTN.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.otroRetirarBTN.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.otroRetirarBTN.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.otroRetirarBTN.Location = new System.Drawing.Point(345, 275);
+            this.otroRetirarBTN.Location = new System.Drawing.Point(350, 269);
             this.otroRetirarBTN.Name = "otroRetirarBTN";
             this.otroRetirarBTN.Size = new System.Drawing.Size(166, 45);
             this.otroRetirarBTN.TabIndex = 13;
@@ -93,7 +93,7 @@
             this.n200BTN.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.n200BTN.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.n200BTN.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.n200BTN.Location = new System.Drawing.Point(345, 200);
+            this.n200BTN.Location = new System.Drawing.Point(350, 194);
             this.n200BTN.Name = "n200BTN";
             this.n200BTN.Size = new System.Drawing.Size(166, 45);
             this.n200BTN.TabIndex = 12;
@@ -106,7 +106,7 @@
             this.n100BTN.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.n100BTN.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.n100BTN.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.n100BTN.Location = new System.Drawing.Point(345, 124);
+            this.n100BTN.Location = new System.Drawing.Point(350, 118);
             this.n100BTN.Name = "n100BTN";
             this.n100BTN.Size = new System.Drawing.Size(166, 45);
             this.n100BTN.TabIndex = 11;
